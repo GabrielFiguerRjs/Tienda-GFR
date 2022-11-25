@@ -7,9 +7,9 @@ import Navbar from 'react-bootstrap/Navbar';
 const BarraNav = () => {
    let CompanyName = 'Antigüedades Casilda';
     return (
-        <div  style={{ backgroundColor: ''}}>
+        <div   >
         <Navbar  >
-          <Container >
+          <Container className = '.App-header'>
             <Navbar.Brand  href="#home">{CompanyName} </Navbar.Brand>
                        <Navbar.Brand href="#AboutUs"> Nosotros </Navbar.Brand>
             <Navbar.Brand href="#Gallery"> Galeria </Navbar.Brand>
